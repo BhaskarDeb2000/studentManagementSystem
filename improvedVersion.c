@@ -43,7 +43,7 @@ int main()
 
         if (duplicateFound == true)
         {
-            printf("Error: Student name already exists. Please enter a unique name: ");
+            printf("Student name already exists. Please enter a unique name: ");
 
             scanf("%s", students[i].name);
             continue;
